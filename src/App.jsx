@@ -30,9 +30,9 @@ const handleSubmit = (event) => {
       :
       
     <div className='app'>
-
-<img className='app__imagen' src= './src/img/rick.png'alt="tu" />
-
+<div className='app__imagen'>
+<img className='app__imagen2' src= 'https://image.tmdb.org/t/p/original/dD14nNxGESj6in49t0SpTaK31jE.jpg'alt="tu" />
+</div>
       <h1>Rick and morty</h1>
       <form className= 'app__form' onSubmit={handleSubmit}>
         <input className= 'app__input' type="text" ref={textInput} />
