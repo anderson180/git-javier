@@ -46,7 +46,7 @@ a {
 .app__container {
    display: flex;
    flex-wrap: wrap;
-   padding: 20ox;
+   padding: 20px;
    gap: 20px;
    justify-content: space-evenly;
 }
