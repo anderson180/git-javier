@@ -28,7 +28,11 @@ const handleSubmit = (event) => {
       isLoading?
       <h2>Loading...</h2>
       :
+      
     <div className='app'>
+
+<img src= '../public/img/rick.png'alt="tu" />
+
       <h1>Rick and morty</h1>
       <form className= 'app__form' onSubmit={handleSubmit}>
         <input className= 'app__input' type="text" ref={textInput} />
