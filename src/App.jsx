@@ -31,7 +31,7 @@ const handleSubmit = (event) => {
       
     <div className='app'>
 
-<img src= '../public/img/rick.png'alt="tu" />
+<img src= './img/rick.png'alt="tu" />
 
       <h1>Rick and morty</h1>
       <form className= 'app__form' onSubmit={handleSubmit}>
